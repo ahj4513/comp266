@@ -1,0 +1,62 @@
+<!doctype html> <!-- HTML 5 document type declaration -->
+<html>
+<head>
+<title>Navigation - South Korea Bicycle Tour Guide</title>
+<meta charset="UTF-8">
+<meta name="description" content="Navigational Information about Korea's beautiful bike paths.">
+<meta name="keywords" content="Grand Slam bike tour, South Korea bike, bicycle touring in South Korea">
+<meta name="author" content="Hyung Jin Ahn">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="images/korflag.png">
+<link rel="stylesheet" href="format.css">
+
+</head>
+
+
+<body>
+<!-- NAVIGATIONAL MENU AND TITLE -->
+<div class="stickyheader">
+	<div> 
+		<h1>South Korea Bicycle Tour Guide</h1>
+	</div>
+	<div> <!-- left 20% when in desktop view, collapsed into a smaller square button when in mobile view -->
+		<nav class="menucontent"> <!-- this should eventually be left-aligned collapsible menu using css and javascript-->
+			<a href="home-en.html">Home</a>
+			<a href="navigation-en.html">Navigation</a>
+			<a href="bicycle_rentals-en.html">Bicycle Rental</a>
+			<a href="contacts.html">Contacts</a>
+		</nav>
+	</div>
+</div> <!-- end of sticky header section -->
+
+<!-- Content -->
+<div>
+	<div class="content">
+	<h2>Maps</h2> 
+		<!--later replace with naver map api-->
+		<div id="map" style="width:500px;height:400px;"></div>
+		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e1eeb98f86003c1d9b3c46d39e11eab0"></script>
+		<script>
+			var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
+			var options = { //지도를 생성할 때 필요한 기본 옵션
+				center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
+				level: 3 //지도의 레벨(확대, 축소 정도)
+			};
+
+			var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+		</script>
+	</div>
+	<div class="content">
+		<iframe src="https://www.bike.go.kr/map/roadMap.do?roadSn=1&roadType=1&xp=37.570595&yp=126.699981&key=2008148358544&zm=12" width="80%" height="100vh" allowfullscreen="true"></iframe>
+	</div>
+</div>
+
+
+
+
+<div class="footer">
+<h6>2025 Hyung Jin Ahn</h6>
+</div>
+</body>
+
+</html>
