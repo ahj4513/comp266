@@ -1,0 +1,126 @@
+<!doctype html> <!-- HTML 5 document type declaration -->
+<html>
+<head>
+<title>Navigation - South Korea Bicycle Tour Guide</title>
+<meta charset="UTF-8">
+<meta name="description" content="Navigational Information about Korea's beautiful bike paths.">
+<meta name="keywords" content="Grand Slam bike tour, South Korea bike, bicycle touring in South Korea">
+<meta name="author" content="Hyung Jin Ahn">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="images/korflag.png">
+<link rel="stylesheet" href="format.css">
+
+<style>
+	div.container {
+		display:flex;
+		flex-direction:row;
+		flex-wrap: wrap;
+		gap: 15px;
+		//justify-content: space-around;
+	}
+	div.shop {
+		display:flex;
+		flex-direction:column;
+		align-items: center;
+		text-align: left;
+		width: 200px;
+		min-height:400px;
+		border: 1px solid black;
+		padding: 15px;
+		background-color: white;
+	}
+
+	.shop h3 {
+		text-align:center;
+    }
+
+	.shop img {
+		max-width: 100%;
+		max-height:100px;
+		height:auto;
+	}
+
+	.content a:visited {
+		text-decoration:none;
+		color:black;
+	}
+</style>
+
+</head>
+
+
+<body>
+<!-- NAVIGATIONAL MENU AND TITLE -->
+<div class="stickyheader">
+	<div> 
+		<h1>South Korea Bicycle Tour Guide</h1>
+	</div>
+	<div> <!-- left 20% when in desktop view, collapsed into a smaller square button when in mobile view -->
+		<nav class="menucontent"> <!-- this should eventually be left-aligned collapsible menu using css and javascript-->
+			<a href="home-en.html">Home</a>
+			<a href="navigation-en.html">Navigation</a>
+			<a href="bicycle_rentals-en.html">Bicycle Rental</a>
+			<a href="contacts.html">Contacts</a>
+		</nav>
+	</div>
+</div> <!-- end of sticky header section -->
+
+<!-- Content -->
+<div>
+	<div class="content">
+		<h2>Renting a bicycle in Seoul</h2>
+		<p>If you are considering renting a bicycle in Seoul, consider these options:</p>
+		<div class="container"> <!-- container for shops -->
+			<a style="text-decoration:none; text-decoration-color:black;" href="https://bikerentalkorea.modoo.at/?link=ara1q4te">
+			<div class="shop"><!--Bike Rental Korea-->
+				<div><!-- image-->
+					<img src="images/bikerentalkorea.png" alt="image of bike rental korea">
+				</div>
+				<div>
+					<h3>Bike Rental Korea</h3>
+					<p>Address: floor 1, 149-81 Yonggang-dong, Mapo-gu, Seoul, South Korea</p>
+					<p>Available Bikes: Road bikes and Hybrid Bikes</p>
+					<p>Rate: &#x20a9;33,000 per day</p>
+				</div>
+			</div>
+			</a>
+			<a style="text-decoration:none; text-decoration-color:black;" href="https://www.seoulcyclepark.com/product/product_list.htm?product_category=01000000">
+			<div class="shop"><!-- Seoul Korea Bike Rental -->
+				<div><!-- image-->
+					<img src="images/seoulbikerental.png" alt="image of Seoul Korea Bike Rental">
+				</div>
+				<div>
+					<h3>Seoul Korea Bike Rental</h3>
+					<p>Address: 19 Itaewon-ro 20-gil, Yongsan District, Seoul, South Korea</p>
+					<p>Available Bikes: Road Bikes, Gravel Bikes, Hybrid Bikes, and E-Bikes</p>
+					<p>Rate: Road / Gravel / Hybrid Bikes &#x20a9;35,000 per day<br>E-Bikes &#x20a9;55,000 per day</p>
+				</div>
+			</div>
+			</a>
+			<a style="text-decoration:none; text-decoration-color:black;" href="https://docs.google.com/forms/d/e/1FAIpQLSe8RwXKLLVd0TFMLphgy1s3TK-BLpSbv3uTKw3ltQHivz7jUA/viewform?pli=1">
+			<div class="shop"><!-- Bikero -->
+				<div><!-- image-->
+					<img src="images/bikero.png" alt="image of Bikero">
+				</div>
+				<div>
+					<h3>Bikero</h3>
+					<p>Address: South Korea, Seoul, Gangseo-gu, 방화대로 52길 33 1층</p>
+					<p>Available Bikes: Touring Bike, Gravel Bike, Hybrid Bike, Road Bike, and Mountain Bike</p>
+					<p>Rate: US$30.00 per day (with 20% discounts for 5 days or longer rental duration)</p>
+				</div>
+			</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="footer">
+<h6>2025 Hyung Jin Ahn</h6>
+<p>code references: w3schools.com</p>
+</div>
+</body>
+
+</html>

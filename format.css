@@ -1,0 +1,62 @@
+h1 {
+	font-size: 72px;
+	font-family: Verdana;
+}
+
+h2 {
+	font-size: 28px;
+	font-family: Verdana;
+}
+
+.stickyheader {
+	position: sticky;
+	top: 0;
+	width:100%;
+	text-align: center;
+	background-color: HSL(359,2%,60%);
+	padding: 15px 15px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	z-index: 1000; /* forces the elements with this class to stay on top of the stack */
+		
+}
+
+table, th, td {
+	border: 1px solid black;
+	width: 100%;
+}
+
+th {
+	padding: 10px 0px 10px;
+}
+
+td {
+	padding: 10px;
+}
+
+body {
+	background-color: HSL(359,2%,80%);
+}
+
+.footer {
+	position: sticky;
+	bottom: 0;
+	margin-top: 15px;
+	padding: 15px;
+	background-color: HSL(359,2%,60%);
+	border-radius: 15px;
+	z-index: 1000; /* same as z-index explanation for header*/
+}
+
+.content {
+	padding: 50px;
+	margin: 50px 10px;
+	background-color: HSLA(359,2%,93%,0.5);
+	border-radius: 15px;
+	border: 2px dashed grey;
+	width: 80%;
+	max-width: 1000px;
+	margin:auto;
+	margin-top: 10px;
+	
+}
