@@ -102,3 +102,12 @@ body {
 	text-decoration: none;
 }
 
+.menucontent a:hover {
+	background-color: white;
+	color: black;
+	padding: 12px;
+	border-radius: 15px;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
