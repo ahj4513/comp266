@@ -4,16 +4,17 @@ h2 {
 }
 
 .stickyheader {
-	position: sticky;
+	<!-- position and size -->
+	position: fixed;
 	top: 0;
 	width:100%;
+	z-index: 1000; /* forces the elements with this class to stay on top of the stack */
+	<!-- other properties -->	
 	text-align: center;
 	background-color: HSL(359,2%,60%);
 	padding: 15px 15px;
 	margin-bottom: 15px;
 	border-radius: 15px;
-	z-index: 1000; /* forces the elements with this class to stay on top of the stack */
-		
 }
 
 .stickyheader h1 {
