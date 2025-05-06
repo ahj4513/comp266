@@ -19,6 +19,7 @@ h2 {
 .stickyheader h1 {
 	font-size: 32px;
 	font-family: Verdana;
+	margin-bottom: 25px;
 }
 
 table, th, td {
