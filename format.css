@@ -63,6 +63,9 @@ body {
 
 .flexcontainer {
 	display:flex;
+}
+
+.flexcontainer table {
 	border-collapse: collapse;
 }
 
@@ -90,4 +93,8 @@ body {
 	width: 30%;
 }
 
+.menucontent a {
+	background-color: black;
+	color: white;
+}
 
