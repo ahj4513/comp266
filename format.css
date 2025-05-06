@@ -63,7 +63,6 @@ body {
 
 .flexcontainer {
 	display:flex;
-	vertical-align: bottom;
 }
 
 .formatted-table {
