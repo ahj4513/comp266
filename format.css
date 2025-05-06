@@ -93,7 +93,7 @@ body {
 	width: 30%;
 }
 
-.menucontent {
+.menucontent a, .menucontent a:visited {
 	background-color: black;
 	color: white;
 	padding: 15px;
