@@ -65,3 +65,29 @@ body {
 .flexcontainer {
 	display:flex;
 }
+
+.formatted-table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.formatted-table th, .formatted-table td {
+	border: 1px solid black;
+	padding: 10px;
+	word-wrap: break-word;
+}
+
+.formatted-table th:nth-child(1), .formatted-table td:nth-child(1) {
+	width: 20%;
+}
+
+.formatted-table th:nth-child(2), .formatted-table td:nth-child(2) {
+	width: 50%;
+}
+
+.formatted-table th:nth-child(3), .formatted-table td:nth-child(3) {
+	width: 30%;
+}
+
+
