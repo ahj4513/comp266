@@ -96,5 +96,6 @@ body {
 .menucontent a {
 	background-color: black;
 	color: white;
+	padding: 15px;
 }
 
