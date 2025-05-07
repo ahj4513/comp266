@@ -4,12 +4,10 @@ h2 {
 }
 
 .stickyheader {
-	<!-- position and size -->
 	position: fixed;
 	top: 0;
 	width:100%;
 	z-index: 1000; /* forces the elements with this class to stay on top of the stack */
-	<!-- other properties -->	
 	text-align: center;
 	background-color: HSL(359,2%,60%);
 	padding: 15px 15px;
