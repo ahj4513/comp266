@@ -4,7 +4,7 @@ h2 {
 }
 
 .stickyheader {
-	position: fixed;
+	position: sticky;
 	top: 0;
 	width:95%;
 	z-index: 1000; /* forces the elements with this class to stay on top of the stack */
