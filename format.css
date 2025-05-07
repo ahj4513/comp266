@@ -58,6 +58,7 @@ body {
 	border: 2px dashed grey;
 	width: 80%;
 	margin: auto;
+	text-align: center;
 	
 }
 
@@ -128,5 +129,12 @@ body {
 			display: block;
 			font-size: 12px;
 		}
+		
+		.content {
+				padding: 25px;
+				border-radius: 7px;
+				border: 1px dashed grey;
+		}
+		
 		
 }
