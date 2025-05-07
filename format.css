@@ -21,13 +21,7 @@ h2 {
 	margin-bottom: 25px;
 }
 
-@media (max-width: 700px) {
-	.stickyheader h1 {
-		font-size: 16px;
-		font-family: Verdana;
-		margin-bottom: 12px;
-		
-}
+
 
 table, th, td {
 	border: 1px solid black;
@@ -124,3 +118,14 @@ body {
 	gap: 10px;
 }
 
+@media (max-width: 700px) {
+	.stickyheader h1 {
+		font-size: 16px;
+		font-family: Verdana;
+		margin-bottom: 12px;
+		}
+		.menucontent a, .menucontent a:visited, .menucontent a:hover {
+			display: block;
+		}
+		
+}
