@@ -131,10 +131,12 @@ body {
 		}
 		
 		.content {
-				padding: 25px;
+				padding: 12px;
 				border-radius: 7px;
 				border: 1px dashed grey;
 		}
 		
-		
+		.formatted-table {
+			word-wrap: break-word;
+		}
 }
