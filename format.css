@@ -22,7 +22,7 @@ h2 {
 }
 
 .stickyheader h1 {
-	position: relative;
+	position: static;
 	top: 0;
 	font-size: 5vw;
 	font-family: Verdana;
