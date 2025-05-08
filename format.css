@@ -138,23 +138,23 @@ body {
 @media (max-width: 700px) {
 	.stickyheader h1 {
 		margin-bottom: 12px;
-		}
-		.menucontent a, .menucontent a:visited, .menucontent a:hover {
-			display: block;
-			font-size: 12px;
-		}
+	}
+	.menucontent a, .menucontent a:visited, .menucontent a:hover {
+		display: block;
+		font-size: 12px;
+	}
 		
-		.content {
-				padding: 5px;
-				border-radius: 7px;
-				border: 3px outset grey;
-		}
+	.content {
+			padding: 5px;
+			border-radius: 7px;
+			border: 3px outset grey;
+	}
 		
-		.formatted-table {
-			word-wrap: break-word;
-		}
+	.formatted-table {
+		word-wrap: break-word;
+	}
 
-		.flexcontainer {
-			max-width: 100%;
-		}
+	.flexcontainer {
+		max-width: 100%;
+	}
 }
