@@ -72,7 +72,8 @@ body {
 
 .flexcontainer {
 	display:inline-flex;
-	overflow-x: auto;
+	flex-wrap: wrap;
+	overflow-x: hidden;
 }
 
 .flexcontainer div {
