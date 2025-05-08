@@ -71,7 +71,7 @@ body {
 }
 
 .gridcontainer {
-	display:grid;
+	display:inline-grid;
 }
 
 .gridcontainer table, .gridcontainer th, .gridcontainer td {
