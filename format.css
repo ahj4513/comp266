@@ -33,7 +33,7 @@ h2 {
 	z-index: 1000; /* same as z-index explanation for header*/
 }
 
-
+<!-- 
 table, th, td {
 	border: 1px solid black;
 	width: 100%;
@@ -47,6 +47,8 @@ th {
 td {
 	padding: 10px;
 }
+
+-->
 
 body {
 	background-color: HSL(359,2%,80%);
