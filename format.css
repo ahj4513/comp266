@@ -72,12 +72,6 @@ body {
 
 .flexcontainer {
 	display:inline-flex;
-	border-collapse: collapse;
-}
-
-.flexcontainer table, .flexcontainer th, .flexcontainer td {
-	border-collapse: collapse;
-	text-align: center;
 }
 
 .formatted-table {
