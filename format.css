@@ -142,7 +142,7 @@ body {
 		.content {
 				padding: 5px;
 				border-radius: 7px;
-				border: 1px dashed grey;
+				border: 1px outset grey;
 		}
 		
 		.formatted-table {
