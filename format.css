@@ -74,7 +74,7 @@ body {
 	display:flex;
 }
 
-.flexcontainer table {
+.flexcontainer table, .flexcontainer th, .flexcontainer td {
 	border-collapse: collapse;
 }
 
