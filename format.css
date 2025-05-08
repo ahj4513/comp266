@@ -107,7 +107,7 @@ body {
 .menucontent a, .menucontent a:visited {
 	background-color: black;
 	color: white;
-	padding: 15px 10vw;
+	padding: 15px 7vw;
 	border-radius: 15px;
 	margin-top: 20px;
 	text-decoration: none;
@@ -116,7 +116,7 @@ body {
 .menucontent a:hover {
 	background-color: white;
 	color: black;
-	padding: 12px 9vw;
+	padding: 12px 8vw;
 	border-radius: 15px;
 	margin-top: 20px;
 	text-decoration: none;
