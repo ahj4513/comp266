@@ -70,12 +70,12 @@ body {
 	
 }
 
-.gridcontainer {
-	display:inline-grid;
+.flexcontainer {
+	display:inline-flex;
 	border-collapse: collapse;
 }
 
-.gridcontainer table, .gridcontainer th, .gridcontainer td {
+.flexcontainer table, .flexcontainer th, .flexcontainer td {
 	border-collapse: collapse;
 	text-align: center;
 }
