@@ -66,8 +66,7 @@ body {
 	border: 5px outset grey;
 	width: 95%;
 	margin: 5px auto;
-	text-align: left;
-	
+	text-align: left;	
 }
 
 .flexcontainer {
@@ -117,7 +116,7 @@ body {
 .menucontent a:hover {
 	background-color: white;
 	color: black;
-	padding: 12px 15%;
+	padding: 12px 10%;
 	border-radius: 15px;
 	margin-top: 20px;
 	text-decoration: none;
