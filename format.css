@@ -63,7 +63,7 @@ body {
 	padding: 50px;
 	background-color: HSLA(359,2%,93%,0.5);
 	border-radius: 15px;
-	border: 2px outset grey;
+	border: 5px outset grey;
 	width: 95%;
 	margin: 5px auto;
 	text-align: left;
@@ -142,7 +142,7 @@ body {
 		.content {
 				padding: 5px;
 				border-radius: 7px;
-				border: 1px outset grey;
+				border: 3px outset grey;
 		}
 		
 		.formatted-table {
