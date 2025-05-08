@@ -19,7 +19,7 @@ h2 {
 }
 
 .stickyheader h1 {
-	font-size: 28px;
+	font-size: 5vw;
 	font-family: Verdana;
 	margin-bottom: 25px;
 }
@@ -133,8 +133,6 @@ body {
 
 @media (max-width: 700px) {
 	.stickyheader h1 {
-		font-size: 16px;
-		font-family: Verdana;
 		margin-bottom: 12px;
 		}
 		.menucontent a, .menucontent a:visited, .menucontent a:hover {
