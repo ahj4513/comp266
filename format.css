@@ -6,7 +6,7 @@ h2 {
 .stickyheader {
 	position: sticky;
 	top: 0;
-	width:100%;
+	<!--width-->
 	z-index: 1000; /* forces the elements with this class to stay on top of the stack */
 	text-align: center;
 	background-color: HSL(359,2%,60%);
@@ -21,6 +21,15 @@ h2 {
 	margin-bottom: 25px;
 }
 
+.footer {
+	position: relative;
+	bottom: 0;
+	margin-top: 15px;
+	padding: 10px;
+	background-color: HSL(359,2%,60%);
+	border-radius: 15px;
+	z-index: 1000; /* same as z-index explanation for header*/
+}
 
 
 table, th, td {
@@ -41,15 +50,7 @@ body {
 	background-color: HSL(359,2%,80%);
 }
 
-.footer {
-	position: relative;
-	bottom: 0;
-	margin-top: 15px;
-	padding: 10px;
-	background-color: HSL(359,2%,60%);
-	border-radius: 15px;
-	z-index: 1000; /* same as z-index explanation for header*/
-}
+
 
 .content {
 	padding: 50px;
