@@ -72,6 +72,7 @@ body {
 
 .flexcontainer {
 	display:inline-flex;
+	overflow-x: auto;
 }
 
 .formatted-table {
