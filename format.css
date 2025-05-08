@@ -75,6 +75,10 @@ body {
 	overflow-x: auto;
 }
 
+.flexcontainer div {
+	width: 33%;
+}
+
 .formatted-table {
 	width: 100%;
 	border-collapse: collapse;
