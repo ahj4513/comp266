@@ -12,6 +12,7 @@ h2 {
 	background-color: HSL(359,2%,60%);
 	padding: 10px 10px;
 	border-radius: 15px;
+	margin: 0;
 }
 
 .stickyheader h1 {
