@@ -8,8 +8,6 @@ h2 {
 }
 
 .stickyheader {
-	position: sticky;
-	top: 0;
 	width: 100%;
 	z-index: 1000; /* forces the elements with this class to stay on top of the stack */
 	text-align: center;
@@ -18,7 +16,14 @@ h2 {
 	margin: 0;
 }
 
+.stickyheader nav {
+	position: sticky;
+	top: 0;
+}
+
 .stickyheader h1 {
+	position: fixed;
+	top: 0;
 	font-size: 5vw;
 	font-family: Verdana;
 	margin-bottom: 25px;
