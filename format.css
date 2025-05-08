@@ -70,11 +70,11 @@ body {
 	
 }
 
-.flexcontainer {
-	display:flex;
+.gridcontainer {
+	display:grid;
 }
 
-.flexcontainer table, .flexcontainer th, .flexcontainer td {
+.gridcontainer table, .gridcontainer th, .gridcontainer td {
 	border-collapse: collapse;
 	text-align: center;
 }
