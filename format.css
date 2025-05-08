@@ -149,4 +149,8 @@ body {
 		.formatted-table {
 			word-wrap: break-word;
 		}
+
+		.flexcontainer {
+			max-width: 100%;
+		}
 }
