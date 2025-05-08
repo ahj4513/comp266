@@ -72,6 +72,7 @@ body {
 
 .gridcontainer {
 	display:inline-grid;
+	border-collapse: collapse;
 }
 
 .gridcontainer table, .gridcontainer th, .gridcontainer td {
