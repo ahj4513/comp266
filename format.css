@@ -86,6 +86,10 @@ body {
 	margin: 5px;
 }
 
+.flexcontainer img {
+	max-width: 30%;
+}
+
 .formatted-table {
 	width: 100%;
 	border-collapse: collapse;
