@@ -118,6 +118,7 @@ body {
 .menucontent {
 	margin-bottom: 15px;
 	display: flex;
+	z-index: 1001; // z-index test
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 10px;
