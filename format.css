@@ -128,7 +128,7 @@ body {
 		margin-bottom: 12px;
 	}
 	.menucontent a, .menucontent a:visited, .menucontent a:hover {
-		display: block;
+		display: inline-block;
 		font-size: 12px;
 	}
 		
