@@ -144,10 +144,6 @@ body {
 
 	.flexcontainer {
 		max-width: 100%;
-	}
-
-	.flexcontainer div div{
-		margin: 1px;
-		display: block;
+		display: inline-block;
 	}
 }
