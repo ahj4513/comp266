@@ -163,7 +163,8 @@ body {
 		max-width: 100%;
 	}
 
-	.flexcontainer div {
+	.flexcontainer div div{
 		margin: 1px;
+		display: inline-block;
 	}
 }
