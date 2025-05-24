@@ -144,6 +144,8 @@ body {
 
 	.flexcontainer {
 		max-width: 100%;
-		display: inline-block;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
 	}
 }
