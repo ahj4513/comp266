@@ -57,6 +57,9 @@ body {
 	text-align: left;	
 }
 
+.content table {
+	border: 1px solid black;
+}
 .content img {
 	max-width: 50%;
 }
