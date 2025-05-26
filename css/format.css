@@ -11,6 +11,7 @@ h2 {
 	width: 100%;
 	z-index: 1000; /* forces the elements with this class to stay on top of the stack */
 	position: sticky;
+	top: 0;
 	text-align: center;
 	background-color: HSL(359,2%,60%);
 	padding: 10px 10px;
