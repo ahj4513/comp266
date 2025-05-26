@@ -10,7 +10,7 @@ h2 {
 .stickyheader {
 	width: 100%;
 	z-index: 1000; /* forces the elements with this class to stay on top of the stack */
-	position: sticky;
+	position: fixed;
 	top: 0;
 	text-align: center;
 	background-color: HSL(359,2%,60%);
@@ -19,7 +19,7 @@ h2 {
 }
 
 .stickyheader h1 {
-	font-size: 5vw;
+	font-size: 3vw;
 	font-family: Verdana;
 	margin-bottom: 25px;
 }
