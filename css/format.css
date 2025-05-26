@@ -51,6 +51,10 @@ body {
 	margin: 5px auto;
 	text-align: left;	
 }
+
+.content table {
+	width: 100%;
+}
 .content table, tr, td {
 	border: 1px solid black;
 }
