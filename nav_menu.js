@@ -14,5 +14,5 @@ async function loadMenu() {
 		console.error('Error loading menu:', error); // displays the error message on the console if the menu fails to load
 	}
 
-	export {loadMenu}; // exports the function to be used in other files.
 }
+export {loadMenu}; // exports the function to be used in other files.
