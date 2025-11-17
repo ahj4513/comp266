@@ -16,19 +16,11 @@
 
 <body>
 <!-- NAVIGATIONAL MENU AND TITLE -->
-<div class="stickyheader">
-	<div> 
-		<h1>South Korea Bicycle Tour Guide</h1>
-	</div>
-	<div> <!-- left 20% when in desktop view, collapsed into a smaller square button when in mobile view -->
-		<nav class="menucontent"> <!-- this should eventually be left-aligned collapsible menu using css and javascript-->
-			<a href="index.html">Home</a>
-			<a href="navigation.html">Navigation</a>
-			<a href="bicycle_rentals.html">Bicycle Rental</a>
-			<a href="contacts.html">Contacts</a>
-		</nav>
-	</div>
-</div> <!-- end of sticky header section -->
+<div id="nav_menu"></div>
+<script type="module">
+	import {loadMenu} from './nav_menu.js';
+	loadMenu();
+</script>
 
 <!-- Content -->
 <div>
