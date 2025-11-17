@@ -105,40 +105,11 @@ body {
 	width: 30%;
 }
 
-.menucontent a, .menucontent a:visited {
-	background-color: black;
-	color: white;
-	padding: 15px 7vw;
-	border-radius: 15px;
-	margin-top: 20px;
-	text-decoration: none;
-}
-
-.menucontent a:hover {
-	background-color: white;
-	color: black;
-	padding: 12px 8vw;
-	border-radius: 15px;
-	margin-top: 20px;
-	text-decoration: none;
-}
-
-.menucontent {
-	margin-bottom: 15px;
-	display: flex;
-	z-index: 1001; // z-index test
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 10px;
-}
+NEEDS REWORK
 
 @media (max-width: 700px) {
 	.stickyheader h1 {
 		margin-bottom: 12px;
-	}
-	.menucontent a, .menucontent a:visited, .menucontent a:hover {
-		display: block;
-		font-size: 12px;
 	}
 		
 	.content {
