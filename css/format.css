@@ -7,22 +7,6 @@ h2 {
 	font-family: Verdana;
 }
 
-.stickyheader {
-	width: 100%;
-	z-index: 1000; /* forces the elements with this class to stay on top of the stack */
-	position: sticky;
-	top: 0;
-	text-align: center;
-	background-color: HSL(359,2%,60%);
-	padding: 10px 10px;
-	margin: 0;
-}
-
-.stickyheader h1 {
-	font-size: 3vw;
-	font-family: Verdana;
-	margin-bottom: 25px;
-}
 
 .footer {
 	position: relative;
@@ -108,15 +92,13 @@ body {
 /* Nav Menu Section */
 .dropbutton {
 	color: orange;
-	border-radius: 40px;
+	border-radius: 20px;
 	text-decoration: none;
-	width: 5vw;
+	width: 15vw;
+	
 }
 
 @media (max-width: 700px) {
-	.stickyheader h1 {
-		margin-bottom: 12px;
-	}
 		
 	.content {
 			padding: 5px;
