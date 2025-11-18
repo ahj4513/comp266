@@ -109,6 +109,8 @@ body {
 .dropbutton {
 	color: orange;
 	border-radius: 40px;
+	text-decoration: none;
+	width: 5vw;
 }
 
 @media (max-width: 700px) {
