@@ -104,7 +104,13 @@ body {
 
 .dropdown-content {
 	display:none;
+}
+
+.dropdown-content a {
+	padding:15px;
+	border: 1px black;
 	background-color: brown;
+	color: white;
 }
 
 @media (max-width: 700px) {
