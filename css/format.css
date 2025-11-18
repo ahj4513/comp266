@@ -91,11 +91,20 @@ body {
 
 /* Nav Menu Section */
 .dropbutton {
-	color: orange;
+	background-color: orange;
 	border-radius: 20px;
 	text-decoration: none;
 	width: 15vw;
 	
+}
+
+.dropbutton:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content {
+	display:none;
+	background-color: brown;
 }
 
 @media (max-width: 700px) {
