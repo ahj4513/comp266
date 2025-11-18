@@ -91,7 +91,7 @@ body {
 
 /* Nav Menu Section */
 
-.dropbutton:hover .dropdown-content {
+.navbar a:hover, .dropbutton:hover .dropdown-content {
 	display: block;
 }
 
