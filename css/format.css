@@ -90,13 +90,6 @@ body {
 }
 
 /* Nav Menu Section */
-.dropbutton {
-	background-color: orange;
-	border-radius: 20px;
-	text-decoration: none;
-	width: 15vw;
-	
-}
 
 .dropbutton:hover .dropdown-content {
 	display: block;
@@ -111,6 +104,13 @@ body {
 	border: 1px black;
 	background-color: brown;
 	color: white;
+}
+
+.navbar a {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
 }
 
 @media (max-width: 700px) {
