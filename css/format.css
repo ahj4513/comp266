@@ -89,8 +89,10 @@ body {
 
 /* Nav Menu Section */
 
-.dropdown:hover .dropdown-content a {
+.dropdown:hover .dropdown-content {
 	display: block;
+	margin-left: 20px;
+	
 
 }
 
