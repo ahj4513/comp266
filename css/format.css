@@ -94,7 +94,7 @@ body {
 }
 
 #navbar, #navbar a {
-	display: grid;
+	display: flex;
 	background-color: black;
 	color: white;
 	text-decoration: none;
