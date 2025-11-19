@@ -92,10 +92,9 @@ body {
 .dropdown:hover .dropdown-content {
 	display: grid;
 }
-#navbar {
+
+#navbar, #navbar a {
 	display: grid;
-}
-#navbar {
 	background-color: black;
 	color: white;
 	text-decoration: none;
