@@ -89,8 +89,11 @@ body {
 
 /* Nav Menu Section */
 
-.dropbutton:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
 	display: block;
+	.dropdown-content a {
+		background-color:grey;
+	}
 }
 
 #navbar a {
