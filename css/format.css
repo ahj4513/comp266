@@ -96,7 +96,7 @@ body {
 
 }
 #navbar {
-	display: inline-block;
+	display: grid;
 }
 #navbar a {
 	background-color: black;
