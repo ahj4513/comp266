@@ -95,13 +95,14 @@ body {
 	
 
 }
-
+#navbar {
+	display: inline-block;
+}
 #navbar a {
 	background-color: black;
 	color: white;
 	text-decoration: none;
 	padding: 15px;
-	display: grid;
 }
 
 #navbar a:hover {
