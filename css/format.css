@@ -90,7 +90,7 @@ body {
 /* Nav Menu Section */
 
 .dropdown:hover .dropdown-content {
-	display: block;
+	display: grid;
 	margin-left: 20px;
 	
 
