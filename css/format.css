@@ -24,8 +24,6 @@ body {
 	overflow-x: hidden;
 }
 
-
-
 .content {
 	padding: 50px;
 	background-color: HSLA(359,2%,93%,0.5);
@@ -91,8 +89,20 @@ body {
 
 /* Nav Menu Section */
 
-.navbar a:hover, .dropbutton:hover .dropdown-content {
+.dropbutton:hover .dropdown-content {
 	display: block;
+}
+
+#navbar a {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: grid;
+}
+
+#navbar a:hover {
+	background-color: red;
 }
 
 .dropdown-content {
@@ -102,15 +112,8 @@ body {
 .dropdown-content a {
 	padding:15px;
 	border: 1px black;
-	background-color: brown;
-	color: white;
-}
-
-.navbar a {
-	background-color: black;
-	color: white;
-	text-decoration: none;
-	padding: 15px; 
+	background-color: white;
+	color: black;
 }
 
 @media (max-width: 700px) {
