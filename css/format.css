@@ -95,7 +95,7 @@ body {
 #navbar {
 	display: grid;
 }
-#navbar a {
+#navbar {
 	background-color: black;
 	color: white;
 	text-decoration: none;
