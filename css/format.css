@@ -96,11 +96,11 @@ body {
 
 #navbar, #navbar a {
 	display: flex;
+	justify-content: center;
 	background-color: black;
 	color: white;
 	text-decoration: none;
 	padding: 15px;
-	text-align: center;
 }
 
 #navbar a:hover {
