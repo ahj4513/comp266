@@ -3,14 +3,13 @@
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 2rem;
 	font-family: Verdana;
 }
 
 p {
-	font-size: 14px;
+	font-size:1.2em;
 }
-
 
 .footer {
 	position: relative;
