@@ -60,6 +60,7 @@ body {
 	flex-wrap: wrap;
 	overflow-x: hidden;
 	justify-content: space-evenly;
+	flex-grow: 1;
 	
 }
 
