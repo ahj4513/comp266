@@ -56,9 +56,11 @@ body {
 }
 
 .flexcontainer {
-	display:inline-flex;
+	display:flex;
 	flex-wrap: wrap;
 	overflow-x: hidden;
+	justify-content: space-evenly;
+	
 }
 
 .flexcontainer div {
