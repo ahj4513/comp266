@@ -70,9 +70,7 @@ body {
 	margin: 5px;
 }
 
-.flexcontainer img {
-	max-width: 30%;
-	border-radius: 5px;
+.fleximg {
 }
 
 .formatted-table {
