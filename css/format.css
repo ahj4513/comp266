@@ -61,6 +61,7 @@ body {
 	overflow-x: hidden;
 	justify-content: space-evenly;
 	flex-grow: 1;
+	flex-shrink: 1;
 	
 }
 
