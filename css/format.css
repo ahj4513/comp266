@@ -103,7 +103,7 @@ body {
 
 #navbar, #navbar a {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	background-color: black;
 	color: white;
 	text-decoration: none;
