@@ -11,16 +11,29 @@
 <link rel="stylesheet" href="css/format.css">
 
 <style>
-	
-	.flexcontainer a:visited, .flexcontainer a {
+	.gridrentals {
+		display: grid;
+		justify-content: space-evenly;	
+	}
+		
+	.gridrentals a:visited, .flexcontainer a {
 		color: black;
 		text-decoration: none;
 	}
-
-	.flexcontainer img {
+	
+	.gridrentals img {
 		object-fit:none;
 		max-width: 100%;
+		
+		@media (max-width: 700px){
+		
+			.gridrentals {
+				grid-auto-flow: column;
+				gap: 1rem;
+			}
 		}
+		
+ }
 </style>
 
 
@@ -42,7 +55,7 @@
 		<p>You may not want to bring your bicycle to Korea whether it is due to the hassle of checking the bicycle in at the bag check or due to your fear of damaged bicycle before/during/after the tour.</p>
 		<p>If you wish to rent a bicycle while in Korea consider the following options presented below.</p>
 		
-		<div class="flexcontainer">
+		<div class="gridrentals">
 			<div id="rapha"><a href="bicycle_rentals_rapha.html"><img src="images/raphalogo.svg" alt="Rapha bike rental"><p>Rapha</p></a></div>
 			<div id="seoul"><a href="bicycle_rentals_seoul.html"><img src="images/seoullogo.jpg" alt="Bicycle Rentals in Seoul"><p>Seoul</p></a></div>
 			<div id="jeju"><a href="bicycle_rentals_jeju.html"><img src="images/jejuflag.svg" alt="Bicycle Rentals in Jeju"><p>Jeju</p></a></div>
