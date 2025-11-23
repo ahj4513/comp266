@@ -171,7 +171,21 @@ body {
 /* Mobile Device Optimization Codes */
 
 @media (max-width: 700px) {
-		
+
+	h2 {
+		font-size: 1rem;
+		font-family: Verdana;
+	}
+	
+	p {
+		font-size:1em;
+	}
+	
+	li {
+		font-size:1em;
+	}
+
+	
 	.content {
 			padding: 5px;
 			border-radius: 7px;
