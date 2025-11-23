@@ -141,9 +141,19 @@ body {
 	}
 
 	.flexcontainer {
-		max-width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
+	display: flex;
+	overflow-x: hidden;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-grow: 1;
+	flex-shrink: 1;
+	
+	}
+
+	.flexcontainer img {
+		flex-grow: 1;
+		flex-shrink: 1;
+		height: 80vw;
+		object-fit: cover;
 	}
 }
