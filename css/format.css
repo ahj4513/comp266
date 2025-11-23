@@ -235,4 +235,10 @@ body {
 		color:black;
 	}
 
+	.navicons-container {
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	}
+
 }
