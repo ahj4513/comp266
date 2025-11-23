@@ -183,8 +183,8 @@ body {
 @media (max-width: 700px) {
 		
 	.content {
-			padding: 5px;
-			border-radius: 7px;
+			padding: 1rem;
+			border-radius: 0.5rem;
 			border: 3px outset grey;
 	}
 		
