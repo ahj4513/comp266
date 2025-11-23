@@ -56,8 +56,7 @@ body {
 }
 
 .flexcontainer {
-	display:flex;
-	flex-wrap: wrap;
+	display: flex;
 	overflow-x: hidden;
 	justify-content: space-evenly;
 	flex-grow: 1;
