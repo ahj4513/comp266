@@ -52,7 +52,7 @@ body {
 	max-width: 25%;
 }
 .content img {
-	max-width: 50%;
+	max-height: 80vw;
 }
 
 .flexcontainer {
@@ -64,7 +64,13 @@ body {
 	
 }
 
-.fleximg {
+.flexcontainer img {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 33%;
+	max-width: 33%;
+	height: auto;
+	object-fit: cover;
 }
 
 .formatted-table {
