@@ -53,6 +53,7 @@ body {
 }
 .content img {
 	max-height: 80vw;
+	max-width: 100%;
 }
 
 .flexcontainer {
