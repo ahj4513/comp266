@@ -14,6 +14,7 @@
 	.gridrentals {
 		display: grid;
 		justify-content: space-evenly;	
+		grid-auto-flow: row;
 	}
 	
 	.gridrentals > div {
@@ -26,7 +27,7 @@
 	}
 	
 	.gridrentals img {
-		object-fit:none;
+		object-fit:cover;
 		max-width: 100%;
 		
 		@media (max-width: 700px){
