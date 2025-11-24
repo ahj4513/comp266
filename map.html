@@ -66,13 +66,14 @@
 	.ui-guide {
 		display: flex;
 		flex-direction: column;
+		flex-flow:column;
 		gap: 1rem;
 	}
 	.ui-action{
 		display: flex;
 		flex-direction: row;
 		flex-wrap:wrap; /* not necessary but just in case the text overflows out of the page*/
-		gap: 5rem;
+		gap: 2rem;
 	}
 </style>
 </head>
@@ -90,7 +91,8 @@
 <div>
 	<div class="content">
 		<h2>Interactive Map (Kakao Map)</h2>
-		<div><p>Feel free to use the following controls to look around:</p>
+		<div>
+			<p>Feel free to use the following controls to look around:</p>
 			<div class="ui-guide">
 				<div class="ui-action">
 					<div>
