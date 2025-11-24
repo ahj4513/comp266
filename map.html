@@ -68,13 +68,19 @@
 		flex-direction: column;
 		flex-flow:column;
 		gap: 1rem;
+
 	}
 	.ui-action{
 		display: flex;
 		flex-direction: row;
 		flex-wrap:wrap; /* not necessary but just in case the text overflows out of the page*/
 		gap: 2rem;
-		justify-content: space-evenly;
+		justify-content: space-between;
+	}
+	@media (min-width: 700px) {
+		.ui-guide {
+			width: 50%;
+		}
 	}
 </style>
 </head>
