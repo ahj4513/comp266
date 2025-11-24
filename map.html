@@ -62,6 +62,18 @@
 		font-size: 0.8rem;
 		text-align: center;
 	}
+
+	.ui-guide {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+	.ui-action{
+		display: flex;
+		flex-direction: row;
+		flex-wrap:wrap; /* not necessary but just in case the text overflows out of the page*/
+		gap: 5rem;
+	}
 </style>
 </head>
 
@@ -81,22 +93,27 @@
 		<div><p>Feel free to use the following controls to look around:</p>
 			<div class="ui-guide">
 				<div class="ui-action">
+					<div>
 					scroll up / pinch in
+					</div>
+					<div>
+						zoom in
+					</div>
+				<div class="ui-action">
+					<div>
+						scroll down / double-click / pinch out
+					</div>
+					<div>
+						zoom out
+					</div>
 				</div>
 				<div class="ui-action">
-					zoom in
-				</div>
-				<div class="ui-action">
-					scroll down / double-click / pinch out
-				</div>
-				<div class="ui-action">
-					zoom out
-				</div>
-				<div class="ui-action">
-					click and drag / touch and drag
-				</div>
-				<div class="ui-action">
-					pan
+					<div>
+						click and drag / touch and drag
+					</div>
+					<div>
+						pan
+					</div>
 				</div>
 			</div>
 		</div>
