@@ -21,6 +21,7 @@
 		display: flex;
 		flex-direction: row;
 		width: 25%; /* 25% of the content div width */
+		gap: 1rem;
 	}
 
 	#legend-color1 {
@@ -34,7 +35,7 @@
 
 	#legend-color2 {
 		background-color: rgb(109,132,255);
-		padding: 5%;
+		padding: 5% 25%;
 		border-radius: 0.4rem;
 	}
 	#legend-text2 {
@@ -93,24 +94,30 @@
 		-->
 		<div id="legend-container">
 			<div class="legend-flex-container">
-				<div id="legend-color1">
-					<!--COLOR RED for dedicated bike path-->
+				<div class="legend-colors">
+					<div id="legend-color1">
+						<!--COLOR RED for dedicated bike path-->
+					</div>
 				</div>
 				<div id="legend-text1">
 					Dedicated Bike Path
 				</div>
 			</div>
 			<div class="legend-flex-container">
-				<div id="legend-color2">
-					<!-- COLOR rgb(109,132,255) for Shared Pedestrian / Bike Path -->
+				<div class="legend-colors">
+					<div id="legend-color2">
+						<!--COLOR rgb(109, 132, 255) for Shared Pedestrian / Bike Path -->
+					</div>
 				</div>
 				<div id="legend-text2">
 					Shared Pedestrian / Bike Path
 				</div>
 			</div>
 			<div class="legend-flex-container">
-				<div id="legend-color3">
-					<!-- COLOR rgb(52,221,167) for Shared Road (Car, Bicycle)-->
+				<div class="legend-colors">
+					<div id="legend-color3">
+						<!--COLOR rgb(52,221,167) for Shared Road (Car, Bicycle)-->
+					</div>
 				</div>
 				<div id="legend-text3">
 					Shared Road (Car, Bicycle)
