@@ -32,7 +32,12 @@ div.scroll-container img {
 /* Setting fixed height for bike passport slideshow */
 div.carousel-inner > img {
 	height: 500px;
-	object-fit: cover;
+}
+
+@media (max-width: 1600px) { /* mobile screen fixed photo height */
+	div.carousel-inner > img {
+		height: 300px;
+	}
 }
 
 </style>
