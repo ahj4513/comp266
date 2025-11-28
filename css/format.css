@@ -184,7 +184,7 @@ body {
 
 /* Mobile Device Optimization Codes */
 
-@media (max-width: 1600px) {
+@media (max-width: 1200px) {
 		
 	.content {
 			width: 95%;
