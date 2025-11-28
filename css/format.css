@@ -252,7 +252,8 @@ body {
 		margin-top: 5rem;
 		display: flex;
 		flex-direction: row;
-		gap: 15px;
+		flex-wrap: wrap; 
+		padding: 50px;
+		gap: 25px;
 	}
 }
-
