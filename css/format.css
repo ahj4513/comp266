@@ -24,6 +24,10 @@ li {
 	z-index: 1000; /* same as z-index explanation for header*/
 }
 
+.footer p {
+	font-size: 12px;
+}
+
 body {
 	background-color: HSL(359,2%,80%);
 	margin: 0;
