@@ -1,3 +1,7 @@
+root: {
+	color-scheme: light-dark;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -29,7 +33,7 @@ li {
 }
 
 body {
-	background-color: HSL(359,2%,80%);
+	background-color: light-dark(HSL(359,2%,80%),black);
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -241,10 +245,13 @@ body {
 		color:black;
 	}
 
-	.navicons-container {
-	margin-top: 5rem;
-	display: flex;
-	flex-direction: column;
-	}
+}
 
+@media (max-width:700px) {
+	.navicons-container {
+		margin-top: 5rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
