@@ -44,7 +44,7 @@ body {
 	padding: 3rem;
 	background-color: HSLA(359,2%,93%,0.5);
 	border-radius: 15px;
-	border: 5px outset grey;
+	border: 5px groove grey;
 	width: 80%;
 	margin: 1rem auto;
 	text-align: left;	
